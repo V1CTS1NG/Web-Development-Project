@@ -1,0 +1,560 @@
+p,h1,h2,h3,h4,h5,h6,ul{
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+header{
+    background: url(../images/header-bg_01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Open sans';
+    padding: 185px 0 70px;
+    line-height: 22px;
+}
+
+nav{
+    background: #fff;
+    padding: 20px 0 ;
+}
+
+nav .col-xl-8 a{
+    margin-right: 40px;
+}
+
+nav .logo{
+    font-family: 'Open sans';
+    font-size: 25px;
+    font-weight: 700;
+    color: #212121;
+}
+
+header h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+header p{
+    margin-top: 30px;
+    margin-bottom: 110px;
+    font-weight: 22px;
+    font-size: 22px;
+}
+
+.btns{
+    margin-bottom: 100px;
+}
+
+.btns button{
+    padding: 25px 33px;
+    outline: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background: none;
+    border: 3px solid #fff;
+}
+
+.btns button:last-child{
+    margin-left: 25px;
+    border-color: #167b6e;
+    background: #167b6e;
+    
+}
+
+.strelka{
+    text-align: center;
+    margin: auto;
+}
+
+.strelka a{
+    font-size: 25px;
+    color: #fff !important;
+    display: inline-block;
+}
+
+h2{
+    font-family: 'Open sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 35px;
+}
+
+.about-us{
+    padding: 130px 0;
+    font-family: 'Open sans';
+    color: #212121;
+}
+
+section p{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.about-us .col-xl-4 p{
+    width: 255px;
+    display: inline-block;
+    margin: auto;
+}
+
+.about-us .col-xl-4 h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+.about-us .fa{
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+
+.our-services{
+    padding: 175px 0 125px;
+    background: #e4fdf9;
+    color: #212121;
+}
+
+.col-xl-9 p{
+    margin-bottom: 95px;
+}
+
+.our-services .fa{
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+
+.margin{
+    margin-top: 30px;
+}
+
+.our-services .col-xl-4 .item{
+    font-family: 'Open Sans';
+    padding: 60px 0 50px;
+    background: #fff;
+}
+
+.our-services .col-xl-4 .item:hover{
+    background: #00897b;
+    color: #fff;
+    -webkit-box-shadow: 0 0 40px 20px #C7C7C7;
+box-shadow: 0 0 40px 20px #C7C7C7;
+}
+
+.our-services .col-xl-4 .item:hover a{
+    background: #00897b;
+    color: #fff;
+    border-color: #fff;
+    
+}
+
+.our-services .col-xl-4 .item h4{
+    margin-bottom: 25px;
+}
+
+.our-services .col-xl-4 .item p{
+    width: 280px;
+    display: inline-block;
+    margin: auto;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+.our-services .col-xl-4 .item a{
+    padding: 19px 13px;
+    border: 2px solid #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.lastest-work{
+    padding: 130px 0 135px;
+}
+
+.baton{
+    margin-bottom: 120px;
+}
+
+.baton button{
+    padding: 15px 30px;
+    font-family: "Open sans";
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border: 2px solid #00897b;
+    background: #fff;
+}
+
+.baton button:hover{
+    background: #00897b;
+    color: #fff;
+}
+
+.lastest-work .col-xl-4{
+    padding: 0;
+}
+
+.lastest-work .col-xl-4 .image{
+    position: relative;
+}
+
+.lastest-work .col-xl-4 p{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    opacity: 0;
+    color: rgb(123, 123, 123);
+}
+
+.lastest-work .col-xl-4 p span{
+    display: block;
+}
+
+.lastest-work .col-xl-4:hover p{
+    opacity: 1;
+}
+
+.image{
+    padding: 15px;
+}
+
+.lastest-work a{
+    margin-top: 115px;
+    padding: 30px 60px;
+    background: #00897b;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #fff;
+}  
+
+.pricing-plan{
+    background: #f0f1f1;
+    padding: 130px 0;
+}
+
+.pricing-plan .col-xl-4 .item{
+    background: #fff;
+    padding: 0 0 65px;
+    text-align: center;
+}
+
+.pricing-plan .col-xl-4:hover .item{
+    -webkit-box-shadow: 0 0 40px 20px #C7C7C7;
+box-shadow: 0 0 40px 20px #C7C7C7;
+}
+
+.pricing-plan .plan{
+    background: #3949ab;
+    padding: 50px 0;
+    color: #fff;
+    font-family: "Open sans";
+    font-weight: 400;
+}
+
+.pricing-plan .plan p{
+    margin-top: 40px;
+    font-size: 17px; 
+    position: relative;
+}
+
+.pricing-plan .plan p .dollar{
+    font-size: 25px;
+    position: absolute;
+    left: -15px;
+    top: -10px;
+}
+
+.pricing-plan .plan p .cifr{
+    font-size: 50px;
+}
+
+.pricing-plan .features{
+    margin-top: 65px;
+    font-family: "Open sans";
+    font-weight: 300;
+}
+
+.line{
+    text-align: center;
+    width: 178px;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.order{
+    display: inline-block;
+    padding: 20px 30px;
+    background: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #000;
+    border: 2px solid #000;
+}
+
+
+.pricing-plan .col-xl-4:hover .order{
+    border: none;
+    background: #00897b;
+    color: #fff;
+}
+
+
+.blog{
+    padding: 130px 0;
+    background: #e4fdf9;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #212121;
+}
+
+.link{
+    font-size: 25px;
+    color: #212121;
+}
+
+.link:hover{
+    color: #00897b;
+}
+
+.text{
+    font-size: 17px;
+}
+
+.view{
+    margin-top: 125px;
+    padding: 30px 55px;
+    text-transform: uppercase;
+    background: #00897b;
+    color: #fff;
+}
+
+.contact-us{
+    padding: 130px 0;
+    background: url(../images/contact-bg_02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans";
+}
+
+.contact-us .col-xl-9{
+    margin: auto;
+    text-align: center;
+}
+
+.contact-us .col-xl-9 h2{
+    color: #fff;
+}
+
+.contact-us .col-xl-4 .fa{
+    margin: auto;
+    width: 105px;
+    height: 105px;
+    font-size: 65px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.contact-us .col-xl-4 p{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-us .col-xl-4 p button{
+    border: none;
+    background: none;
+    color: #fff;
+    outline: none;
+}
+
+.contact-us .col-xl-4 p button:hover{
+    color: blue;
+    
+}
+
+.contact-us .col-xl-4 p span{
+    display: block;
+}
+.contact-us .col-xl-4 p a{
+    color: #fff;
+}
+
+.contact-us .col-xl-4 p a:hover{
+    color: blue;
+}
+
+.contact-us .col-xl-12 form{
+    margin-top: 85px;
+}
+
+.contact-us .col-xl-12 form input{
+    width: 48%;
+    padding: 35px 22px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact-us .col-xl-12 form input:first-child{
+    margin-right: 43px;
+}
+
+.contact-us .col-xl-12 form input::placeholder{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #212121;
+}
+
+.contact-us .col-xl-12 form textarea{
+    margin-top: 35px;
+    width: 100%;
+    height: 320px;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 0 0 20px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-us .col-xl-12 form textarea::placeholder{
+    color: #212121;
+}
+
+.contact-us .col-xl-12 form .send{
+    margin-top: 40px;
+    padding: 30px 85px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    color: #212121;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.all-rights{
+    text-align: center;
+    padding: 22px 0;
+}
+
+.all-rights h3{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #212121;
+}
+
+
+.team-member img{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-team-member .member1{
+    width: 370px;
+    height: 320px;
+}
+
+.members img{
+    width: 370px;
+    height: 320px;
+}
+
+.slick{
+    padding: 130px 0;
+}
+
+.slick .paragraph{
+    width: 635px;
+    margin: 0 auto 130px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    color: #212121;
+}
+
+.slick .col-xl-4{
+    padding: 15px;
+    margin-bottom: 130px;
+}
+
+.slick .col-xl-4 p{
+    margin-top: 20px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    color: #212121;
+}
+
+.slick-dots{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots button{
+    display: none;
+}
+
+.slick-dots li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00897b;
+    margin-right: 6px;
+}
+
+.slick-dots li.slick-active{
+    background: #3949ab;
+}
+
+.slick .icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.slick .icons a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: #f0f1f1;
+    color: #00897b;
+    border-radius: 10px;
+    margin-right: 27px;
+}
+
+.slick .icons a:last-child{
+    margin: 0;
+}
+
+.slick .icons a:hover{
+    color: #fff;
+    background: #3949ab;
+}
+
